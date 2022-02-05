@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_description_clock_vert"
+    android:initialKeyguardLayout="@layout/digital_clock_vert"
+    android:initialLayout="@layout/digital_clock_vert"
+    android:minWidth="110dp"
+    android:minHeight="110dp"
+    android:previewImage="@drawable/preview_vert"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen" />

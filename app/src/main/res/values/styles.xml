@@ -1,0 +1,106 @@
+<resources>
+
+    <style name="Widget.AdvancedClockWidget.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+    <style name="ShadowTextStyle">
+        <item name="android:textColor">@color/widget_textColor</item>
+        <item name="android:shadowColor">@color/widget_shadow_color</item>
+        <item name="android:shadowDy">@dimen/shadow_dy</item>
+        <item name="android:shadowRadius">@dimen/shadow_radius</item>
+    </style>
+
+    <style name="ClockThinHourTextStyle" parent="ShadowTextStyle">
+        <item name="android:fontFamily">clock2021</item>
+        <item name="android:textSize">@dimen/clock_thin_hour_size</item>
+        <item name="android:layout_marginTop">@dimen/clock_thin_hour_margin</item>
+        <item name="android:layout_marginRight">@dimen/clock_thin_hour_minute_space</item>
+        <item name="android:layout_marginBottom">@dimen/clock_thin_hour_margin</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:format12Hour">@string/clock_thin_hour_format_12hour</item>
+        <item name="android:format24Hour">@string/clock_thin_hour_format_24hour</item>
+    </style>
+
+    <style name="ClockThinMinuteTextStyle" parent="ShadowTextStyle">
+        <item name="android:fontFamily">clock2021</item>
+        <item name="android:textSize">@dimen/clock_thin_minute_size</item>
+        <item name="android:layout_marginLeft">@dimen/clock_thin_hour_minute_space</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:format12Hour">@string/clock_thin_minute_format</item>
+        <item name="android:format24Hour">@string/clock_thin_minute_format</item>
+    </style>
+
+    <style name="ClockThinAmPmDateTextStyle" parent="ShadowTextStyle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/clock_thin_ampmdate_size</item>
+    </style>
+
+    <style name="ClockThinAmPmTextStyle" parent="ClockThinAmPmDateTextStyle">
+        <item name="android:format12Hour">@string/clock_ampm_format_12hour</item>
+        <item name="android:format24Hour">@string/clock_ampm_format_24hour</item>
+    </style>
+
+    <style name="ClockThinDateTextStyle" parent="ClockThinAmPmDateTextStyle">
+        <item name="android:format12Hour">@string/clock_date_format</item>
+        <item name="android:format24Hour">@string/clock_date_format</item>
+    </style>
+
+    <style name="ClockVertHourTextStyle" parent="ShadowTextStyle">
+        <item name="android:fontFamily">clock2021-fixed</item>
+        <item name="android:textSize">@dimen/clock_vert_hour_size</item>
+        <item name="android:layout_marginTop">@dimen/clock_vert_hour_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/clock_vert_margin_bottom</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:format12Hour">@string/clock_vert_hour_format_12hour</item>
+        <item name="android:format24Hour">@string/clock_vert_hour_format_24hour</item>
+    </style>
+    <style name="ClockVertMinuteTextStyle" parent="ShadowTextStyle">
+        <item name="android:fontFamily">clock2021-fixed</item>
+        <item name="android:textSize">@dimen/clock_vert_minute_size</item>
+        <item name="android:layout_marginTop">@dimen/clock_vert_minute_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/clock_vert_margin_bottom</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:format12Hour">@string/clock_vert_minute_format</item>
+        <item name="android:format24Hour">@string/clock_vert_minute_format</item>
+    </style>
+    <style name="ClockVertAmPmDateTextStyle" parent="ShadowTextStyle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/clock_vert_ampmdate_size</item>
+    </style>
+    <style name="ClockVertAmPmTextStyle" parent="ClockVertAmPmDateTextStyle">
+        <item name="android:format12Hour">@string/clock_ampm_format_12hour</item>
+        <item name="android:format24Hour">@string/clock_ampm_format_24hour</item>
+    </style>
+    <style name="ClockVertDateTextStyle" parent="ClockVertAmPmDateTextStyle">
+        <item name="android:format12Hour">@string/clock_date_format</item>
+        <item name="android:format24Hour">@string/clock_date_format</item>
+    </style>
+
+
+    <style name="ClockPlainTimeTextStyle" parent="ShadowTextStyle">
+        <item name="android:fontFamily">clock2021</item>
+        <item name="android:textSize">@dimen/clock_plain_time_size</item>
+        <item name="android:layout_marginTop">@dimen/clock_plain_time_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/clock_plain_time_margin_bottom</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:format12Hour">@string/clock_plain_time_format_12hour</item>
+        <item name="android:format24Hour">@string/clock_plain_time_format_24hour</item>
+    </style>
+    <style name="ClockPlainAmPmDateTextStyle" parent="ShadowTextStyle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/clock_plain_ampmdate_size</item>
+        <item name="android:layout_marginTop">@dimen/clock_plain_ampmdate_margin_top</item>
+        <item name="android:paddingTop">@dimen/clock_plain_ampmdate_padding_top</item>
+        <item name="android:paddingBottom">@dimen/clock_plain_ampmdate_padding_bottom</item>
+    </style>
+    <style name="ClockPlainAmPmTextStyle" parent="ClockPlainAmPmDateTextStyle">
+        <item name="android:format12Hour">@string/clock_ampm_format_12hour</item>
+        <item name="android:format24Hour">@string/clock_ampm_format_24hour</item>
+    </style>
+    <style name="ClockPlainDateTextStyle" parent="ClockPlainAmPmDateTextStyle">
+        <item name="android:format12Hour">@string/clock_date_format</item>
+        <item name="android:format24Hour">@string/clock_date_format</item>
+    </style>
+</resources>

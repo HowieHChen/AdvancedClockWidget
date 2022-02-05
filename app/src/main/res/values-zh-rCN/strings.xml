@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">时钟小部件</string>
+    <string name="clock_date_format">M月d日, EEE</string>
+    <string name="widget_subtitle_clock_thin">细体数字时钟</string>
+    <string name="widget_description_clock_thin">细字体的数字时钟</string>
+    <string name="widget_subtitle_clock_vert">垂直数字时钟</string>
+    <string name="widget_description_clock_vert">垂直排列的数字时钟</string>
+    <string name="widget_subtitle_clock_plain">基础数字时钟</string>
+    <string name="widget_description_clock_plain">一般的数字时钟</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.advclockwidget">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <receiver
+            android:name=".DigitalClockPlain"
+            android:exported="true"
+            android:label="@string/widget_subtitle_clock_plain">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/digital_clock_plain_info" />
+        </receiver>
+        <receiver
+            android:name=".DigitalClockVert"
+            android:exported="true"
+            android:label="@string/widget_subtitle_clock_vert">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/digital_clock_vert_info" />
+        </receiver>
+        <receiver
+            android:name=".DigitalClockThin"
+            android:exported="true"
+            android:label="@string/widget_subtitle_clock_thin">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/digital_clock_thin_info" />
+        </receiver>
+    </application>
+
+</manifest>

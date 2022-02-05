@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">0dp</dimen>
+    <dimen name="appWidgetRadius">20dp</dimen>
+
+    <dimen name="shadow_dy">0.0</dimen>
+    <dimen name="shadow_radius">3.0</dimen>
+
+    <dimen name="clock_thin_hour_size">100.0dp</dimen>
+    <dimen name="clock_thin_hour_margin">-10.0dp</dimen>
+    <dimen name="clock_thin_hour_minute_space">2.0dp</dimen>
+    <dimen name="clock_thin_minute_size">46.0dp</dimen>
+    <dimen name="clock_thin_ampmdate_size">13.0dp</dimen>
+
+    <dimen name="clock_vert_hour_size">90.0dp</dimen>
+    <dimen name="clock_vert_hour_margin_top">-20.0dp</dimen>
+    <dimen name="clock_vert_minute_margin_top">-10.0dp</dimen>
+    <dimen name="clock_vert_margin_bottom">-20.0dp</dimen>
+    <dimen name="clock_vert_minute_size">90.0dp</dimen>
+    <dimen name="clock_vert_ampmdate_size">13.0dp</dimen>
+
+    <dimen name="clock_plain_time_size">70.0dp</dimen>
+    <dimen name="clock_plain_time_margin_top">0.0dp</dimen>
+    <dimen name="clock_plain_time_margin_bottom">-10.0dp</dimen>
+    <dimen name="clock_plain_ampmdate_padding_top">0.0dp</dimen>
+    <dimen name="clock_plain_ampmdate_padding_bottom">1.0dp</dimen>
+    <dimen name="clock_plain_ampmdate_margin_top">0.0dp</dimen>
+    <dimen name="clock_plain_ampmdate_size">13.0dp</dimen>
+</resources>

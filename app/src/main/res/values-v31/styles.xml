@@ -1,0 +1,6 @@
+<resources>
+    <style name="Widget.AdvancedClockWidget.AppWidget.Container" parent="android:Widget">
+        <item name="android:background">@drawable/app_widget_background</item>
+        <item name="android:clipToOutline">true</item>
+    </style>
+</resources>

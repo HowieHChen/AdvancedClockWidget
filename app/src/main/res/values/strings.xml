@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Advanced Clock Widget</string>
+    <string name="widget_subtitle_clock_thin">Thin Digital Clock</string>
+    <string name="widget_description_clock_thin">Digital clock in thin font</string>
+    <string name="widget_subtitle_clock_vert">Vertical Digital Clock</string>
+    <string name="widget_description_clock_vert">Vertically aligned digital clock</string>
+    <string name="widget_subtitle_clock_plain">Plain Digital Clock</string>
+    <string name="widget_description_clock_plain">Normal digital clock</string>
+
+    <string name="clock_ampm_format_12hour" translatable="false">aa</string>
+    <string name="clock_ampm_format_24hour" translatable="false"></string>
+    <string name="clock_date_format">EEE, MMM d</string>
+
+    <string name="clock_thin_hour_format_12hour" translatable="false">h</string>
+    <string name="clock_thin_hour_format_24hour" translatable="false">HH</string>
+    <string name="clock_thin_minute_format" translatable="false">mm</string>
+
+    <string name="clock_vert_hour_format_12hour" translatable="false">hh</string>
+    <string name="clock_vert_hour_format_24hour" translatable="false">HH</string>
+    <string name="clock_vert_minute_format" translatable="false">mm</string>
+
+    <string name="clock_plain_time_format_12hour" translatable="false">h:mm</string>
+    <string name="clock_plain_time_format_24hour" translatable="false">HH:mm</string>
+</resources>
